@@ -1,0 +1,11 @@
+[project]
+name = "vit-dino-from-scratch"
+version = "0.1.0"
+description = "Vision Transformer (ViT-Base) and DINO self-distillation from scratch in PyTorch."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

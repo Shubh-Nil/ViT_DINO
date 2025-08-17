@@ -1,0 +1,15 @@
+# Minimal DINO config for ViT-Base (patch size 12)
+data_root: /path/to/your/unlabeled/images   # ImageFolder; class names ignored
+output_dir: outputs/dino-vitb12
+
+image_size: 224
+patch_size: 12
+epochs: 1
+batch_size: 4
+num_workers: 2
+
+out_dim: 65536
+base_lr: 0.0005
+weight_decay: 0.04
+ema_momentum: 0.996
+ema_final_momentum: 1.0
